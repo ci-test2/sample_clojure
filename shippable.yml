@@ -19,7 +19,7 @@ script:
   - cd sample
   - lein test2junit
   
-cache: true
+build_image: shippable/minv2
 
 notifications:
   email:
