@@ -19,7 +19,7 @@ script:
   - cd sample
   - lein test2junit
   
-build_image: shippable/minv2
+build_image: shippableimages/ubuntu1404_python
 
 notifications:
   email:
