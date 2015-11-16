@@ -19,10 +19,10 @@ script:
   - cd sample
   - lein test2junit
   
-cache: true
+#cache: true
 
-notifications:
-  email:
-    varsha@shippable.com
+#notifications:
+ # email:
+  #  varsha@shippable.com
     
 archive: true
