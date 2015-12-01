@@ -25,4 +25,4 @@ notifications:
   email:
     test_ci2@yahoo.in
     
-archive: true
+archive; true
