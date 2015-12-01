@@ -21,8 +21,8 @@ script:
   
 #cache: true
 
-#notifications:
- # email:
-  #  varsha@shippable.com
+notifications:
+  email:
+    test_ci2@yahoo.in
     
 archive: true
