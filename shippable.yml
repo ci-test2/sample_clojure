@@ -24,8 +24,6 @@ notifications:
     recipients:
       - test_ci2@yahoo.in
       - varsha.arun04@gmail.com
-    on_success: change
-    on_failure: always
   irc:
     pull_requests: true
     channels:
