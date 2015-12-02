@@ -19,10 +19,16 @@ script:
   - cd sample
   - lein test2junit
   
-#cache: true
-
 notifications:
   email:
-    test_ci2@yahoo.in
+    recipients:
+      - test_ci2@yahoo.in
+      - varsha.arun04@gmail.com
+    on_success: change
+    on_failure: always
+  irc:
+   pull_requests: true
+   channels:
+     - "chat.freenode.net#test-irc"
     
-archive; true
+archive: true
